@@ -1,0 +1,14 @@
+<formato>ps1</formato>
+
+<1:variavel>frase</1:variavel>
+<1:dialogo>Frase</1:dialogo>
+<1:tag>texto</1:tag>
+
+
+<arquivo>inicio</arquivo>
+Write-Host <texto>frase</texto>
+<arquivo>fim</arquivo>
+
+Esta área e livre para comentarios
+
+esse arquivo gera um "hello world" em scrpit powershell windows

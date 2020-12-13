@@ -1,0 +1,60 @@
+<formato>html</formato>
+
+<numero:variaveis>7</numero:variaveis>
+
+<1:tag>numero</1:tag>
+<1:dialogo>Matrícula do aluno</1:dialogo>
+<1:variavel>matricula</1:variavel>
+
+<2:tag>texto</2:tag>
+<2:dialogo>Nome do aluno</2:dialogo>
+<2:variavel>nome</2:variavel>
+
+<3:tag>data</3:tag>
+<3:dialogo>Data de nascimento do aluno</3:dialogo>
+<3:variavel>nascimento</3:variavel>
+
+<4:tag>texto</4:tag>
+<4:dialogo>Nome da mãe do aluno</4:dialogo>
+<4:variavel>mae</4:variavel>
+
+<5:tag>numero</5:tag>
+<5:dialogo>Telefone de contato</5:dialogo>
+<5:variavel>telefone</5:variavel>
+
+<6:tag>numero</6:tag>
+<6:dialogo>Nota da prova 1</6:dialogo>
+<6:variavel>nota1</6:variavel>
+
+<7:tag>numero</7:tag>
+<7:dialogo>Nota da prova 2</7:dialogo>
+<7:variavel>nota2</7:variavel>
+
+
+
+<arquivo>inicio</arquivo>
+<h3 style="text-align: center;"><strong>Formul&aacute;rio</strong></h3>
+<p>&nbsp;</p>
+<p style="text-align: left; padding-left: 40px;"><strong>Matr&iacute;cula:</strong> <numero>matricula</numero></p>
+<p style="text-align: left; padding-left: 40px;"><strong>Nome:</strong> <texto>nome</texto></p>
+<p style="text-align: left; padding-left: 40px;"><strong>Data de nascimento:</strong> <data>nascimento</data></p>
+<p style="text-align: left; padding-left: 40px;"><strong>Nome da M&atilde;e:</strong> <texto>mae</texto></p>
+<p style="text-align: left; padding-left: 40px;"><strong>Telefone:</strong> <numero>telefone</numero></p>
+<p style="text-align: left; padding-left: 40px;">&nbsp;</p>
+<table style="height: 54px; width: 60%; border-collapse: collapse; margin-left: auto; margin-right: auto;" border="1">
+<tbody>
+<tr style="height: 18px;">
+<td style="width: 29.4415%; height: 18px;">&nbsp;</td>
+<td style="width: 70.5585%; height: 18px; text-align: center;"><strong>Notas</strong></td>
+</tr>
+<tr style="height: 18px;">
+<td style="width: 29.4415%; height: 18px;"><strong>&nbsp; Prova 1:</strong></td>
+<td style="width: 70.5585%; height: 18px; text-align: center;"><numero>nota1</numero></td>
+</tr>
+<tr style="height: 18px;">
+<td style="width: 29.4415%; height: 18px;"><strong>&nbsp; Prova 2:</strong></td>
+<td style="width: 70.5585%; height: 18px; text-align: center;"><numero>nota2</numero></td>
+</tr>
+</tbody>
+</table>
+<arquivo>fim</arquivo>

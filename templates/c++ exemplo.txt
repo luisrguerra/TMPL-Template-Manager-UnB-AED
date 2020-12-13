@@ -1,0 +1,35 @@
+<formato>cpp</formato>
+
+<numero:variaveis>2</numero:variaveis>
+
+<1:variavel>frase1</1:variavel>
+<1:dialogo>Primeira frase</1:dialogo>
+<1:tag>texto</1:tag>
+
+<2:variavel>frase2</2:variavel>
+<2:dialogo>Segunda frase</2:dialogo>
+<2:tag>texto</2:tag>
+
+
+
+
+
+<arquivo>inicio</arquivo>
+ #include <iostream>
+ #include <locale.h>
+ #include <string>
+ //#include <math.h> // necessário para usar pow e sqrt
+ using namespace std;
+
+ int main(){
+  setlocale(LC_ALL,"Portuguese");
+  cout << "<texto>frase1</texto>" << endl;
+  cout << "<texto>frase2</texto>" << endl;
+  
+  return 0;
+ }
+<arquivo>fim</arquivo>
+
+Esta area e livre para comentarios
+
+esse arquivo gera um "hello world" em c++ para o Dev-C++

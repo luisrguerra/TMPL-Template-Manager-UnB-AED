@@ -1,0 +1,43 @@
+<formato>txt</formato>
+
+<numero:variaveis>3</numero:variaveis>
+
+<1:tag>texto</1:tag>
+<1:dialogo>Nome do personagem principal</1:dialogo>
+<1:variavel>Nome</1:variavel>
+<1:predefinicoes>3</1:predefinicoes>
+
+<1:1:dialogo>Luis Eduardo</1:1:dialogo>
+<1:2:dialogo>Erick Nasareth</1:2:dialogo>
+<1:3:dialogo>Inserir nome</1:3:dialogo>
+
+<1:1:opcao>Luis</1:1:opcao>
+<1:2:opcao>Erick</1:2:opcao>
+<1:3:opcao>inserir</1:3:opcao>
+
+
+<2:tag>texto</2:tag>
+<2:dialogo>Comida que o personagem comprou</2:dialogo>
+<2:variavel>Comida</2:variavel>
+<2:predefinicoes>4</2:predefinicoes>
+
+<2:1:dialogo>Pastel</2:1:dialogo>
+<2:2:dialogo>Hambúrguer</2:2:dialogo>
+<2:3:dialogo>Batata Frita</2:3:dialogo>
+<2:4:dialogo>Crepe</2:4:dialogo>
+
+<2:1:opcao>Pastel</2:1:opcao>
+<2:2:opcao>Hambúrguer</2:2:opcao>
+<2:3:opcao>Batata Frita</2:3:opcao>
+<2:4:opcao>Crepe</2:4:opcao>
+
+<3:tag>texto</3:tag>
+<3:dialogo>Amigo que ele encontra no final</3:dialogo>
+<3:variavel>Amigo</3:variavel>
+
+
+<arquivo>inicio</arquivo>
+<texto>Nome</texto>, comeu <texto>Comida</texto> na feira. <texto>Nome</texto> nunca tinha ido lá.
+<texto>Nome</texto>, gostou das opções das barracas.
+Ao final do dia <texto>Nome</texto> encontrou com <texto>Amigo</texto> e foi embora.
+<arquivo>fim</arquivo>

@@ -1,0 +1,28 @@
+<formato>txt</formato>
+
+<numero:variaveis>5</numero:variaveis>
+<1:tag>nome</1:tag>
+<2:tag>nome</2:tag>
+<3:tag>objeto</3:tag>
+<4:tag>objeto</4:tag>
+<5:tag>lugar</5:tag>
+
+<1:dialogo>Nome do funcionário</1:dialogo>
+<2:dialogo>Nome do chefe do funcionário</2:dialogo>
+<3:dialogo>Roupa que o funcionário usava</3:dialogo>
+<4:dialogo>Arma do crime</4:dialogo>
+<4:dialogo>Predio onde estavam</4:dialogo>
+
+<1:variavel>funcionario</1:variavel>
+<2:variavel>chefe</2:variavel>
+<3:variavel>roupa</3:variavel>
+<4:variavel>ferramenta</4:variavel>
+<5:variavel>predio</5:variavel>
+
+<arquivo>inicio</arquivo>
+<nome>funcionario</nome> estava trabalhando no <lugar>predio</lugar>, vestindo <objeto>roupa</objeto>. O seu chefe <nome>chefe</nome>,
+perguntou se ele estava indo para uma festa fantasia. <nome>funcionario</nome> pegou a <objeto>ferramenta</objeto>
+e bateu na cabeça do <nome>chefe</nome>. <nome>funcionario</nome> fugiu do local imediatamente e foi visto pela última vez
+perto de uma parada de ônibus. O <objeto>ferramenta</objeto> foi recolido pela polícia como prova e <nome>funcionario</nome>
+está foragido a 8 anos.
+<arquivo>fim</arquivo>

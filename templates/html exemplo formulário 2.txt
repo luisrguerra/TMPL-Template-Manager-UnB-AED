@@ -1,0 +1,89 @@
+<formato>html</formato>
+
+<numero:variaveis>8</numero:variaveis>
+
+<1:tag>texto</1:tag>
+<1:dialogo>Nome</1:dialogo>
+<1:variavel>nome</1:variavel>
+
+<2:tag>texto</2:tag>
+<2:dialogo>Sexo da pessoa</2:dialogo>
+<2:variavel>sexo</2:variavel>
+<2:predefinicoes>2</2:predefinicoes>
+<2:1:dialogo>Sexo masculino</2:1:dialogo>
+<2:2:dialogo>Sexo feminino</2:2:dialogo>
+<2:1:opcao>Homem</2:1:opcao>
+<2:2:opcao>Feminino</2:2:opcao>
+
+<3:tag>data</3:tag>
+<3:dialogo>Data de nascimento</3:dialogo>
+<3:variavel>nascimento</3:variavel>
+
+<4:tag>texto</4:tag>
+<4:dialogo>Ocupação</4:dialogo>
+<4:variavel>ocupacao</4:variavel>
+<4:predefinicoes>3</4:predefinicoes>
+<4:1:dialogo>Estudante</4:1:dialogo>
+<4:2:dialogo>Desempregado</4:2:dialogo>
+<4:3:dialogo>Inserir ocupação</4:3:dialogo>
+<4:1:opcao>estudante</4:1:opcao>
+<4:2:opcao>desempregado</4:2:opcao>
+<4:3:opcao>inserir</4:3:opcao>
+
+<5:tag>texto</5:tag>
+<5:dialogo>Email</5:dialogo>
+<5:variavel>email</5:variavel>
+
+<6:tag>numero</6:tag>
+<6:dialogo>Telefone</6:dialogo>
+<6:variavel>telefone</6:variavel>
+
+<7:tag>numero</7:tag>
+<7:dialogo>Nota da prova 1</7:dialogo>
+<7:variavel>nota1</7:variavel>
+
+<8:tag>numero</8:tag>
+<8:dialogo>Nota da prova 2</8:dialogo>
+<8:variavel>nota2</8:variavel>
+
+
+
+<arquivo>inicio</arquivo>
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<h3 style="text-align: center;"><span style="color: #000000; font-family: arial, helvetica, sans-serif;"><strong>Formul&aacute;rio</strong></span></h3>
+<p>&nbsp;</p>
+<p><span style="color: #000000; font-family: arial, helvetica, sans-serif;"><strong>Nome:</strong> <texto>nome</texto></span></p>
+<p><span style="color: #000000; font-family: arial, helvetica, sans-serif;"><strong>Sexo:</strong> <texto>sexo</texto></span></p>
+<p><span style="color: #000000; font-family: arial, helvetica, sans-serif;"><strong>Data de nascimento:</strong> <data>nascimento</data></span></p>
+<p><span style="color: #000000; font-family: arial, helvetica, sans-serif;"><strong>Ocupa&ccedil;&atilde;o: </strong> <texto>ocupacao</texto></span></p>
+<p><span style="color: #000000; font-family: arial, helvetica, sans-serif;"><strong>Email:</strong> <texto>email</texto></span></p>
+<p><span style="color: #000000; font-family: arial, helvetica, sans-serif;"><strong>Telefone:</strong> <numero>telefone</numero></span></p>
+<table style="border-collapse: collapse; width: 43.1283%; height: 63px; margin-left: auto; margin-right: auto;" border="1">
+<tbody>
+<tr style="height: 21px; background-color: #ecf0f1;">
+<td style="width: 32.211%; text-align: center; height: 21px;">&nbsp;</td>
+<td style="width: 32.2869%; height: 21px; text-align: center;"><span style="color: #000000; font-family: arial, helvetica, sans-serif;"><strong>Nota</strong></span></td>
+</tr>
+<tr style="height: 21px;">
+<td style="width: 32.211%; height: 21px; text-align: center;"><span style="color: #000000; font-family: arial, helvetica, sans-serif;"><strong>Prova 1</strong></span></td>
+<td style="width: 32.2869%; height: 21px; text-align: center;"><span style="color: #000000; font-family: arial, helvetica, sans-serif;"><numero>nota1</numero></span></td>
+</tr>
+<tr style="height: 21px;">
+<td style="width: 32.211%; height: 21px; text-align: center;"><span style="color: #000000; font-family: arial, helvetica, sans-serif;"><strong>Prova 2</strong></span></td>
+<td style="width: 32.2869%; height: 21px; text-align: center;"><span style="color: #000000; font-family: arial, helvetica, sans-serif;"><numero>nota2</numero></span></td>
+</tr>
+</tbody>
+</table>
+<p style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif;"><strong><span style="color: #000000;">template feito em HTML</span></strong></span></p>
+<p style="text-align: center;"><span style="color: #000000; font-family: arial, helvetica, sans-serif;"><img style="display: block; margin-left: auto; margin-right: auto;" src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="" width="101" height="101" /></span></p>
+<p style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif;"><a href="https://pt.wikipedia.org/wiki/HTML" target="_blank" rel="noopener"><span style="color: #000000;">P&aacute;gina sobre o HTML na Wikip&eacute;dia</span></a></span></p>
+<p style="text-align: center;"><span style="color: #000000; font-family: arial, helvetica, sans-serif;"><iframe src="https://www.youtube.com/embed/4dQtz1PpY9A" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></span></p>
+</body>
+</html>
+<arquivo>fim</arquivo>
+
+comentario

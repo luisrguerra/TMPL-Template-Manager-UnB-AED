@@ -1,0 +1,15 @@
+<formato>py</formato>
+
+
+<1:variavel>frase</1:variavel>
+<1:dialogo>Frase</1:dialogo>
+<1:tag>texto</1:tag>
+
+
+<arquivo>inicio</arquivo>
+print("<texto>frase</texto>")  
+<arquivo>fim</arquivo>
+
+Esta area é livre para comentários
+
+esse arquivo gera um "hello world" em python

@@ -1,0 +1,60 @@
+# Project: Template Manager
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+RES      = Progama_beta1_private.res
+OBJ      = main.o tagx.o colorx.o janx.o interface.o teclax.o funcionamento.o notepad.o arquivosx.o abrir.o $(RES)
+LINKOBJ  = main.o tagx.o colorx.o janx.o interface.o teclax.o funcionamento.o notepad.o arquivosx.o abrir.o $(RES)
+LIBS     = -L"F:/Programas/32 bits/Dev-Cpp/MinGW64/lib" -L"F:/Programas/32 bits/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
+INCS     = -I"F:/Programas/32 bits/Dev-Cpp/MinGW64/include" -I"F:/Programas/32 bits/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"F:/Programas/32 bits/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
+CXXINCS  = -I"F:/Programas/32 bits/Dev-Cpp/MinGW64/include" -I"F:/Programas/32 bits/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"F:/Programas/32 bits/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"F:/Programas/32 bits/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
+BIN      = "Template Manager.exe"
+CXXFLAGS = $(CXXINCS) 
+CFLAGS   = $(INCS) 
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+main.o: main.cpp
+	$(CPP) -c main.cpp -o main.o $(CXXFLAGS)
+
+tagx.o: tagx.cpp
+	$(CPP) -c tagx.cpp -o tagx.o $(CXXFLAGS)
+
+colorx.o: colorx.cpp
+	$(CPP) -c colorx.cpp -o colorx.o $(CXXFLAGS)
+
+janx.o: janx.cpp
+	$(CPP) -c janx.cpp -o janx.o $(CXXFLAGS)
+
+interface.o: interface.cpp
+	$(CPP) -c interface.cpp -o interface.o $(CXXFLAGS)
+
+teclax.o: teclax.cpp
+	$(CPP) -c teclax.cpp -o teclax.o $(CXXFLAGS)
+
+funcionamento.o: funcionamento.cpp
+	$(CPP) -c funcionamento.cpp -o funcionamento.o $(CXXFLAGS)
+
+notepad.o: notepad.cpp
+	$(CPP) -c notepad.cpp -o notepad.o $(CXXFLAGS)
+
+arquivosx.o: arquivosx.cpp
+	$(CPP) -c arquivosx.cpp -o arquivosx.o $(CXXFLAGS)
+
+abrir.o: abrir.cpp
+	$(CPP) -c abrir.cpp -o abrir.o $(CXXFLAGS)
+
+Progama_beta1_private.res: Progama_beta1_private.rc 
+	$(WINDRES) -i Progama_beta1_private.rc --input-format=rc -o Progama_beta1_private.res -O coff 
+
